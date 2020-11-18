@@ -1,0 +1,22 @@
+{
+  "name": "lang_project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Nicholas Buras",
+    "email": "nicholas.buras@trojans.dsu.edu"
+  },
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "parcel-bundler": "^1.12.4"
+  },
+  "type": "module",
+  "presets": ["@babel/preset-env"]
+}
